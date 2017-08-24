@@ -19,14 +19,9 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),)
-
-# Social widget
-SOCIAL = (('LinkedIn', 'http://linkedin.com/in/sallymit'),
-          ('Github', 'http://github.com/sallym'),)
+# Social
+# LINKS = (('LinkedIn', 'http://linkedin.com/in/sallymit'),
+#          ('Github', 'http://github.com/sallym'))
 
 DEFAULT_PAGINATION = 10
 
@@ -67,8 +62,9 @@ SITEIMAGE = '/images/profile.jpg width=200 height=200'
 DESCRIPTION = 'Record of my experiences with data science.'
 
 ICONS = [
-    ('github', 'https://github.com/nairobilug/pelican-alchemy'),
-]
+    ('github', 'https://github.com/SallyM'),
+    ('linkedin', 'http://linkedin.com/in/sallymit'),
+ ]
 
 PYGMENTS_STYLE = 'monokai'
 RFG_FAVICONS = True
