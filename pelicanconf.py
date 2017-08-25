@@ -33,7 +33,7 @@ MARKUP = ('md', 'ipynb')
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['ipynb.markup', 'pelican-bootstrapify', 'sitemap']
 
-THEME = 'themes/pelican-alchemy/alchemy'
+THEME = 'themes/pelican-alchemy/pelican-alchemy/alchemy'
 
 HIDE_AUTHORS = True
 
