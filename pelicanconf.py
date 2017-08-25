@@ -43,7 +43,7 @@ BOOTSTRAPIFY = {
     'blockquote': ['blockquote'],
 }
 
-STATIC_PATHS = ['extras', 'images']
+STATIC_PATHS = ['extras', 'images', 'pages']
 EXTRA_PATH_METADATA = {
     'extras/android-chrome-192x192.png': {'path': 'android-chrome-192x192.png'},
     'extras/android-chrome-512x512.png': {'path': 'android-chrome-512x512.png'},
@@ -64,7 +64,8 @@ DESCRIPTION = 'Record of my experiences with data science.'
 ICONS = [
     ('github', 'https://github.com/SallyM'),
     ('linkedin', 'http://linkedin.com/in/sallymit'),
- ]
+    ('envelope', 'mailto:sally@sallymit.com'),
+]
 
 PYGMENTS_STYLE = 'monokai'
 RFG_FAVICONS = True
